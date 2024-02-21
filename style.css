@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: #FFFCF2;
+    height: 100%;
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 2%;
+}
+
+.navbar {
+    overflow: hidden;
+}
+.navbar a {
+    text-align: center;
+    color: #252422;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: end;
+}
+.navbar a {
+    transition: all 0.3s ease 0s;
+}
+.navbar a:hover {
+    background-color: #9D28EB;
+    color: #FFFCF2;
+    padding: 30px 20px;
+}
+.name-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name-wrapper h3{
+    font-size: 2vw;
+    color: #252422;
+    top: 50%;
+}
+.name-wrapper h1 {
+    font-size: 30vw;
+    color: #252422;
+    padding: 0 0;
+}
+.name-wrapper h1 span {
+    color: #9D28EB;
+}
+.name-wrapper h4 {
+    font-size: 2vw;
+    color: #252422;
+    padding: 0 10%;
+    text-align: center;
+}
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-wrapper h1 {
+    font-size: 3vw;
+    padding: 50px;
+}
+.about-wrapper p {
+    font-size: 20px;
+    padding: 10px 10%;
+    text-align: center;
+}
+.projectsTitle {
+    text-align: center;
+    color:#252422;
+    font-size: 3vw;
+    font-weight: 700;
+    padding: 2% 0;
+}
+.projectGrid {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10vw;
+    gap: 50px;
+
+}
+.project1 {
+    background-color: #CCC5B9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.56);
+}
+.project1 img {
+    width: 20vw;
+}
+.project1 p {
+    padding: 20px 10px;
+    text-align: center;
+}
+.project1 button {
+    align-self: center;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #252422;
+    color: #FFFCF2;
+    transition: all 0.3s ease 0s;
+}
+.project1 button:hover {
+    background-color: #9D28EB;
+}
+.project2 {
+    background-color: #CCC5B9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.56);
+}
+.project2 img {
+    width: 23vw;
+}
+.project2 p {
+    padding: 20px 10px;
+    text-align: center;
+}
+.project2 button {
+    align-self: center;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #252422;
+    color: #FFFCF2;
+    transition: all 0.3s ease 0s;
+}
+.project2 button:hover {
+    background-color: #9D28EB;
+}
+.project3 {
+    background-color: #CCC5B9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.56);
+}
+.project3 img {
+    width: 20vw;
+}
+.project3 p {
+    padding: 20px 10px;
+    text-align: center;
+}
+.project3 button {
+    align-self: center;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #252422;
+    color: #FFFCF2;
+    transition: all 0.3s ease 0s;
+}
+.project3 button:hover {
+    background-color: #9D28EB;
+}
+.project4 {
+    background-color: #CCC5B9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.56);
+}
+.project4 img {
+    width: 20vw;
+}
+.project4 p {
+    padding: 20px 10px;
+    text-align: center;
+}
+.project4 button {
+    align-self: center;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #252422;
+    color: #FFFCF2;
+    transition: all 0.3s ease 0s;
+}
+.project4 button:hover {
+    background-color: #9D28EB;
+}
